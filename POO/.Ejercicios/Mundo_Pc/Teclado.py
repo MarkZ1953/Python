@@ -14,10 +14,3 @@ class Teclado(DispositivoEntrada):
 
     def __str__(self) -> str:
         return f"\tTeclado :\n\t\tId : {self.Id_Teclado}\n\t\tMarca : {self._marca}\n\t\tTipo de Entrada : {self._tipoEntrada}"
-
-
-if __name__ == "__main__":
-    teclado1 = Teclado("HP","USB")
-    print("Propiedades Teclado".center(30,"-"))
-    print(teclado1)
-    print("".center(30,"-"))

@@ -14,10 +14,3 @@ class Raton(DispositivoEntrada):
         
     def __str__(self) -> str:
         return f"\tRaton :\n\t\tId : {self.Id_Raton}\n\t\tMarca : {self._marca}\n\t\tTipo de Entrada : {self._tipoEntrada}"
-
-
-if __name__ == "__main__":
-    raton1 = Raton("HP","USB")
-    print("Propiedades Raton".center(30,"-"))
-    print(raton1)
-    print("".center(30,"-"))

@@ -13,9 +13,3 @@ class Monitor:
     
     def __str__(self) -> str:
         return f"\tMonitor :\n\t\tId : {self.Id_Monitor}\n\t\tMarca : {self._marca}\n\t\tTamaño : {self._tamaño}"
-
-if __name__ == "__main__":  
-    monitor1 = Monitor("HP",27)
-    print("Propiedades Monitor".center(30,"-"))
-    print(monitor1)
-    print("".center(30,"-"))
